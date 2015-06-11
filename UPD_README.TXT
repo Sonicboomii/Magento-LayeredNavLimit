@@ -20,7 +20,7 @@ In app/design/frontend/[your theme]/layout/catalog.xml add the following under t
 (If you don't already have catalog.xml, copy it from app/design/frontend/base/default/layout/catalog.xml)
 
 <reference name="head">
-    <action method="addItem"><type>skin_css</type><name>eyemagine/layerednavlimit/css/layerednavlimit.css</name></action>
+    <action method="addCss"><stylesheet>eyemagine/layerednavlimit/css/layerednavlimit.css</stylesheet></action>
      <action method="addJs"><script>eyemagine/layerednavlimit/js/layerednavlimit.js</script></action>
 </reference>
 
