@@ -5,9 +5,8 @@ Since the plugin was designed for Magento Enterprise, I couldn't get the code to
 local namespace. So, I edited filter.phtml and layerednavlimit.js and moved them to the appropriate folders. To get this
 plugin to work (assuming you already have jQuery loaded), you must make the following changes:
 
-Copy Eyemagine_LayeredNavLimit.xml to app/etc/modules/
-
-But DO NOT copy these folders:
+DO NOT copy these folders:
+Eyemagine_LayeredNavLimit.xml to app/etc/modules/
 app/code/local/Eyemagine/LayeredNavLimit/
 app/design/frontend/base/default/layout/eyemagine/
 
