@@ -14,8 +14,7 @@ Move app/design/frontend/base/default/template/eyemagine/layerednavlimit/catalog
 app/design/frontend/[your theme]/template/catalog/layer/filter.phtml
 You can also set the $_limit variable to the limit amount you want.
 
-Move the /skin/frontend/base/default/eyemagine/ folder ->
-/[HTML root]/js/eyemagine/
+Copy the /skin/frontend/base/default/eyemagine/ folder to the same location
 
 In app/design/frontend/[your theme]/layout/catalog.xml add the following under the <default> tag:
 (If you don't already have catalog.xml, copy it from app/design/frontend/base/default/layout/catalog.xml)
