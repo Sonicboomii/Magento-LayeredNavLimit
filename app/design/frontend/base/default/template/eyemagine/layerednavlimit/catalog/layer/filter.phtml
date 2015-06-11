@@ -2,7 +2,7 @@
 /**
  * EYEMAGINE - The leading Magento Solution Partner
  *
- * Layered Nav Limit
+ * Layered Nav Limit - Hardcoded $_limit variable and replaced line 25 with it
  *
  * @author    EYEMAGINE <magento@eyemaginetech.com>
  * @category  Eyemagine
@@ -17,12 +17,12 @@
  *
  * @see Eyemagine_LayeredNavLimit_Block_Catalog_Layer_Filter_Attribute
  */
-$_limit = $this->getLayeredNavLimitHelper()->getLimit();
+$_limit = 5;
 ?>
 
 <ol>
 <?php foreach ($this->getItems() as $_i => $_item): ?>
-    <li class="<?php echo $_i < $this->getLayeredNavLimitHelper()->getLimit() ? '' : 'lnl-hidden' ?>">
+    <li class="<?php echo $_i < $_limit ? '' : 'lnl-hidden' ?>">
         <?php if ($_item->getCount() > 0): ?>
         <a href="<?php echo $this->urlEscape($_item->getUrl()) ?>"><?php echo $_item->getLabel() ?></a>
         <?php else: echo $_item->getLabel() ?>
