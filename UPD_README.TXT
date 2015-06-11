@@ -6,7 +6,7 @@ local namespace. So, I edited filter.phtml and layerednavlimit.js and moved them
 plugin to work (assuming you already have jQuery loaded), you must make the following changes:
 
 DO NOT copy these folders:
-Eyemagine_LayeredNavLimit.xml to app/etc/modules/
+app/etc/modules/
 app/code/local/Eyemagine/LayeredNavLimit/
 app/design/frontend/base/default/layout/eyemagine/
 
